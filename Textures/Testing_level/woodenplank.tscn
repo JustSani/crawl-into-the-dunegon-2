@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://xcyke8d3qorp"]
+
+[ext_resource type="Texture2D" uid="uid://cgydgpsgo2du4" path="res://Textures/Testing_level/woden_plank.png" id="1_bbwx1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8eiwr"]
+albedo_color = Color(0.15264589, 0.06602824, 0.024733419, 1)
+roughness_texture = ExtResource("1_bbwx1")
+uv1_scale = Vector3(1.02, 1.02, 1.02)
+uv1_offset = Vector3(0, -0.675, 0)
+uv1_triplanar_sharpness = 3.8637452
+uv1_world_triplanar = true
+
+[node name="Woodenplank1" type="CSGBox3D" unique_id=1004846810]
+size = Vector3(0.1430664, 4.98999, 0.58496094)
+material = SubResource("StandardMaterial3D_8eiwr")

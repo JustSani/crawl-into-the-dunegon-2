@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://caq4oqbicm22m"]
+
+[ext_resource type="PackedScene" uid="uid://xcyke8d3qorp" path="res://Textures/Testing_level/woodenplank.tscn" id="1_ximqc"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m0uqo"]
+load_path = "res://.godot/imported/Floor.png-c0c3f70fe0bba184bc5f5df025dce13f.s3tc.ctex"
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qjlgj"]
+albedo_texture = SubResource("CompressedTexture2D_m0uqo")
+albedo_texture_force_srgb = true
+uv1_scale = Vector3(-0.31, -0.31, -0.31)
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[node name="Wall" type="CSGBox3D" unique_id=209373587]
+use_collision = true
+size = Vector3(1, 5, 16)
+material = SubResource("StandardMaterial3D_qjlgj")
+
+[node name="Woodenplank2" parent="." unique_id=279857012 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5130329, -0.0050263405, 3.2075195)
+
+[node name="Woodenplank3" parent="." unique_id=536117592 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5130329, -0.0050263405, 6.2075195)
+
+[node name="Woodenplank4" parent="." unique_id=99984027 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5130329, -0.0050263405, -2.7924805)
+
+[node name="Woodenplank5" parent="." unique_id=290212204 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5130329, -0.0050263405, -5.7924805)
+
+[node name="Woodenplank6" parent="." unique_id=936863903 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.5130329, -0.0050263405, 5.2075195)
+
+[node name="Woodenplank8" parent="." unique_id=61711050 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.5130329, -0.0050263405, -4.7924805)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=1953964295]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 0.721876, 0)
+operation = 2
+radius = 1.3671875
+sides = 20
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1121205728]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0.06140133, -1.0081043, -0.0056152344)
+operation = 2
+size = Vector3(3.540039, 1.3684082, 2.730957)
+
+[node name="Woodenplank7" parent="." unique_id=1004846810 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4869671, -0.0050263405, 3.2075195)
+
+[node name="Woodenplank9" parent="." unique_id=368063215 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4869671, -0.0050263405, 3.2075195)
+
+[node name="Woodenplank10" parent="." unique_id=334469852 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4869671, -0.0050263405, 6.2075195)
+
+[node name="Woodenplank11" parent="." unique_id=1808081764 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4869671, -0.0050263405, -2.7924805)
+
+[node name="Woodenplank12" parent="." unique_id=1382514860 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4869671, -0.0050263405, -5.7924805)
+
+[node name="Woodenplank13" parent="." unique_id=756844444 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.4869671, -0.0050263405, 5.2075195)
+
+[node name="Woodenplank14" parent="." unique_id=83141553 instance=ExtResource("1_ximqc")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.4869671, -0.0050263405, -4.7924805)

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d0kfctxnvlwup"]
+
+[ext_resource type="Texture2D" uid="uid://brvmcpq5vpxeh" path="res://Textures/Testing_level/Floor.png" id="1_lxl7q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_omta7"]
+albedo_color = Color(0.4862745, 0.5294118, 0.5294118, 1)
+albedo_texture = ExtResource("1_lxl7q")
+uv1_scale = Vector3(4.845, 4.845, 4.845)
+
+[node name="Floor" type="CSGBox3D" unique_id=1734723572]
+use_collision = true
+size = Vector3(16, 0, 16)
+material = SubResource("StandardMaterial3D_omta7")

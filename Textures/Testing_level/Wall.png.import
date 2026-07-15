@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cti4ioxld86ug"
-path.s3tc="res://.godot/imported/gun_model_gun_palette.png-5e9639c5a5afbe289b00847128bc0590.s3tc.ctex"
+uid="uid://dgxmibqibqxlw"
+path.s3tc="res://.godot/imported/Wall.png-f5c13882442b1cc56e851ac49defcf64.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://player/simple_gun/gun_model_gun_palette.png"
-dest_files=["res://.godot/imported/gun_model_gun_palette.png-5e9639c5a5afbe289b00847128bc0590.s3tc.ctex"]
+source_file="res://Textures/Testing_level/Wall.png"
+dest_files=["res://.godot/imported/Wall.png-f5c13882442b1cc56e851ac49defcf64.s3tc.ctex"]
 
 [params]
 
